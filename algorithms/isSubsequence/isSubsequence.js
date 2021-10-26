@@ -1,7 +1,7 @@
 {
   /* 
     PROBLEM:
-    Find the longest subseuqnce of unique characters in a string
+    Find the longest subsequence of unique characters in a string
     
     EXAMPLES:
     Input: "hellothere"
@@ -10,7 +10,7 @@
   
     Input: nums = "lookitran"
     Output: 7.
-    Explanation: "kitran" = longest substring of unique characters.
+    Explanation: "okitran" = longest substring of unique characters.
   
     */
 }

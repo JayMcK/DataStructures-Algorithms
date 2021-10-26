@@ -30,13 +30,13 @@
   */
 }
 
-//TIME COMPLEXITY =
-//SPACE COMPLEXITY =
+//TIME COMPLEXITY = 0(n) - LINEAR TIME
+//SPACE COMPLEXITY = 0(n) - LINEAR SPACE
 
 //SOLUTION
 function twoOutOfThree(nums1, nums2, nums3) {
-  const lookup = {}; // {3: 2, 1: 1, 2:1}
-  let temp = {}; // {2: 1, 3: 1}
+  const lookup = {};
+  let temp = {};
   let output = [];
 
   for (let num of nums1) {
