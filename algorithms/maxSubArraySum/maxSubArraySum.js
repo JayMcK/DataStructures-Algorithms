@@ -66,4 +66,4 @@ function maxSubArraySum(nums, n) {
   return maxSum;
 }
 
-console.log(maxSubArraySum([], 4));
+module.exports = maxSubArraySum;
