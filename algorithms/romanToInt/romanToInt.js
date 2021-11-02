@@ -77,3 +77,5 @@ function romanToInt(str) {
 }
 
 console.log(romanToInt("IX"));
+
+module.exports = romanToInt;
