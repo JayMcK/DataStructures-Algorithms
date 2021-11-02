@@ -41,8 +41,8 @@ function countUniqueVals(arr) {
   let left = 0;
   let right = 1;
 
-  while (right < arr.length) {
-    if (arr[left] === arr[right]) arr[right]++;
+  while (right <= arr.length) {
+    if (arr[left] === arr[right]) right++;
     else {
       count += 1;
       left = right;
@@ -52,4 +52,4 @@ function countUniqueVals(arr) {
   return count;
 }
 
-console.log(countUniqueVals([-2, -1, -1, 0, 1]));
+module.exports = countUniqueVals;
