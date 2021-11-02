@@ -66,4 +66,4 @@ function searchInsert(nums, target) {
   return left;
 }
 
-console.log(searchInsert([1], 0));
+module.exports = searchInsert;
