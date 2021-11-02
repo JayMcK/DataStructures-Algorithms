@@ -58,3 +58,5 @@ function isSubsequence(str) {
 }
 
 console.log(isSubsequence("hellothere"));
+
+module.exports = isSubsequence;
