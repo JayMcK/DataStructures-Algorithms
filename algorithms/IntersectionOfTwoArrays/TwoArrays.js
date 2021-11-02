@@ -46,4 +46,6 @@ function intersection(nums1, nums2) {
   return output;
 }
 
-console.log(intersection([4, 4, 4, 4, 9, 9, 5, 1], [4, 9, 9, 8, 1]));
+console.log(intersection([4, 9, 5], [9, 4, 9, 8, 4]))
+
+module.exports = intersection;
