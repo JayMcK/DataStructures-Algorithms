@@ -4,8 +4,8 @@
   Given a string array words, return an array of all characters that show up in all strings within the words (including duplicates). You may return the answer in any order.
   
   EXAMPLE:
-  Input: words = ["bella","label","roller"]
-  Output: ["e","l","l"]
+  Input: words = ["cool","lock","cook"]
+  Output: ["c","o"]
   */
 }
 
@@ -57,8 +57,8 @@ function commonChars(words) {
     lookup = temp;
   }
 
-  for (let char in lookup){
-    for (let i = 0; i < lookup[char]; i++){
+  for (let char in lookup) {
+    for (let i = 0; i < lookup[char]; i++) {
       output.push(char);
     }
   }
@@ -66,4 +66,6 @@ function commonChars(words) {
   return output;
 }
 
-console.log(commonChars(["cool", "lock", "cook"]));
+console.log(commonChars(["bella", "label", "roller"]));
+
+module.exports = commonChars;
