@@ -40,9 +40,10 @@ function twoSum(nums, target) {
   }
 
   for (let i = 0; i < nums.length; i++) {
-      let required = target - nums[i];
-      if (lookup[required] && i !== lookup[required]) return [i, lookup[required]];
+    let required = target - nums[i];
+    if (lookup[required] && i !== lookup[required])
+      return [i, lookup[required]];
   }
 }
 
-console.log(twoSum([1, 3, 4, 2], 6))
+module.exports = twoSum;
