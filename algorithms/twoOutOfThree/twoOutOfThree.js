@@ -63,10 +63,10 @@ function twoOutOfThree(nums1, nums2, nums3) {
   }
 
   for (let key in lookup) {
-    if (lookup[key] > 1) output.push(key);
+    if (lookup[key] > 1) output.push(Number(key));
   }
 
   return output;
 }
 
-console.log(twoOutOfThree([3, 1], [2, 3], [1, 2]));
+module.exports = twoOutOfThree;
