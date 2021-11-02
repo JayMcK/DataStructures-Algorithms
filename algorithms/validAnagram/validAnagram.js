@@ -51,3 +51,5 @@ function isAnagram(str1, str2) {
 }
 
 console.log(isAnagram("anagram", "nagaram"));
+
+module.exports = isAnagram;
