@@ -39,4 +39,4 @@ function containsDuplicate(nums) {
   return duplicate;
 }
 
-console.log(containsDuplicate([1, 2, 3, 4]));
+module.exports = containsDuplicate;
