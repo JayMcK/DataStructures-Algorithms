@@ -1,21 +1,4 @@
 {
-  /* 
-    PROBLEM:
-    Find the longest subsequence of unique characters in a string
-    
-    EXAMPLES:
-    Input: "hellothere"
-    Output: 6
-    Explanation: "lother" = longest substring of unique characters
-  
-    Input: nums = "lookitran"
-    Output: 7.
-    Explanation: "okitran" = longest substring of unique characters.
-  
-    */
-}
-
-{
   /*
     PSUEDOCODE:
       1. Create 3 variables, count, tempCount, tempHT.
@@ -56,7 +39,5 @@ function isSubsequence(str) {
   }
   return count;
 }
-
-console.log(isSubsequence("hellothere"));
 
 module.exports = isSubsequence;

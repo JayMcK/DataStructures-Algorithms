@@ -1,30 +1,4 @@
 {
-  /* 
-    PROBLEM:
-    Write a function called maxSubArraySum which accepts an array of integers and a number called n.
-
-    The function should calculate the maximum sum of n consecutive elements in the array.
-    
-    EXAMPLES:
-    Input: nums = [1,2,5,2,8,1,5], n = 2 
-    Output: 10
-  
-    Input: nums = [1,2,5,2,8,1,5], n = 4 
-    Output: 17
-  
-    Input: nums = [4,2,1,6], n = 1 
-    Output: 6
-
-    Input: nums = [4,2,1,6,2], n = 4 
-    Output: 13
-
-    Input: nums = [], n = 4 
-    Output: null
-    
-    */
-}
-
-{
   /*
     PSUEDOCODE:
       1. If input array is empty, return null.
@@ -42,7 +16,6 @@
 //SPACE COMPLEXITY = 0 (1) - CONSTANT SPACE
 
 //SOLUTION
-
 function maxSubArraySum(nums, n) {
   if (!nums.length) return null;
 

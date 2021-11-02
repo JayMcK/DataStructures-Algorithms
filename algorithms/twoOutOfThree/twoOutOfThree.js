@@ -1,23 +1,4 @@
 {
-  /* 
-  PROBLEM:
-  Given three integer arrays nums1, nums2, and nums3, return a distinct array containing all the values that are present in at least two out of the three arrays. You may return the values in any order.
-  
-  EXAMPLES:
-  Input: nums1 = [1,1,3,2], nums2 = [2,3], nums3 = [3]
-  Output: [3,2]
-  Explanation: The values that are present in at least two arrays are:
-  - 3, in all three arrays.
-  - 2, in nums1 and nums2.
-
-  Input: nums1 = [1,2,2], nums2 = [4,3,3], nums3 = [5]
-  Output: []
-  Explanation: No value is present in at least two arrays.
-  
-  */
-}
-
-{
   /*
   PSUEDOCODE:
   1. create hashtable, lookup. Populate with data from nums1 array as keys, and fixed value of 1 - regardless of number of occurances.

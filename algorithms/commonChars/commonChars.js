@@ -1,15 +1,4 @@
 {
-  /* 
-  PROBLEM:
-  Given a string array words, return an array of all characters that show up in all strings within the words (including duplicates). You may return the answer in any order.
-  
-  EXAMPLE:
-  Input: words = ["cool","lock","cook"]
-  Output: ["c","o"]
-  */
-}
-
-{
   /*
     PSUEDOCODE:
     1. create lookup hashTable - empty object.
@@ -30,7 +19,6 @@
 //SPACE COMPLEXITY = 0(n) - LINEAR TIME
 
 //SOLUTION
-
 function commonChars(words) {
   let lookup = {};
   const output = [];
@@ -65,7 +53,5 @@ function commonChars(words) {
 
   return output;
 }
-
-console.log(commonChars(["bella", "label", "roller"]));
 
 module.exports = commonChars;

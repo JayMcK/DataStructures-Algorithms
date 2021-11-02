@@ -1,6 +1,6 @@
 const missingNumber = require("./missingNumber");
 
-describe("return the only number in the range that is missing from the array", () => {
+describe("Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array", () => {
   test("return 2 for [3,0,1]", () => {
     expect(missingNumber([3, 0, 1])).toBe(2);
   });
