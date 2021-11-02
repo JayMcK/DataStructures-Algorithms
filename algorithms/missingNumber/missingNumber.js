@@ -3,9 +3,7 @@
           PROBLEM:
           Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.
           
-          EXAMPLES:
-          Input: nums = [1,2,3,1]
-          Output: true
+          EXAMPLE
       
           Input: nums = [3,0,1]
           Output: 2
@@ -38,4 +36,4 @@ function missingNumber(nums) {
   }
 }
 
-console.log(missingNumber([0, 1]));
+module.exports = missingNumber;
